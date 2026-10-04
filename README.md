@@ -2,10 +2,10 @@
 En Single Page Application (SPA) byggd med Angular där användaren kan konvertera olika måttenheter och temperaturer.
 
 ## Publicerad webbplats
-[LÄGG_TILL_LÄNK_TILL_PUBLICE RAD_SIDA_HÄR]
+https://dt208g-lab3.netlify.app/
 
 ## GitHub‑repo
-[https://github.com/ardalansale/dt208g-lab3]
+https://github.com/ardalansale/dt208g-lab3
 
 ## Funktionalitet
 - Navigering utan felsidesladdning (Routing / SPA)
