@@ -1,1 +1,145 @@
-/* You can add global styles to this file, and also import other style files */
+/* ==========================================
+   1. RESET
+   ========================================== */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+html, body {
+	min-height: 100dvh;
+	scrollbar-gutter: stable;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeSpeed;
+}
+
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-wrap: balance;
+}
+
+p, li {
+	text-wrap: pretty;
+	max-width: 75ch;
+}
+
+:focus-visible {
+	outline: 2px solid #3752ff;
+	outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto !important;
+	}
+	*, *::before, *::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* ==========================================
+   2. ARDALANS CSS-BAS & LAYOUT
+   ========================================== */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'DM Sans', system-ui, sans-serif;
+	background: #f9f9f9;
+	color: #333;
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+/* Header & Navigering */
+header {
+	margin-bottom: 20px;
+}
+
+nav {
+	display: flex;
+	gap: 15px;
+	padding: 10px 0;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+nav a.active {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #3752ff;
+}
+
+/* Huvudinnehåll */
+main {
+	flex: 1;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+}
+
+/* Formulär & Inputfält */
+form, .form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+input, textarea, button {
+	padding: 8px;
+	font-family: inherit;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	background-color: #3752ff;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	padding: 8px;
+	background: #3752ff;
+	color: #fff;
+	margin-top: 40px;
+	border-radius: 8px;
+}
+
+/* Tillgänglighet (Accessibility) */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
