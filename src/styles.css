@@ -150,7 +150,7 @@ footer {
 	border-radius: 8px;
 }
 
-/* Tillgänglighet (Accessibility) */
+/* Tillgänglighet */
 .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
@@ -161,7 +161,7 @@ footer {
 	width: 1px;
 }
 
-/* Componenter */
+/* Componenter - Info Box*/
 .info-box {
 	background-color: #202020;
 	border-left: 4px solid #0066cc;
@@ -175,4 +175,12 @@ footer {
 	font-weight: 700;
 	margin-top: 0;
 	color: #0066cc;
+}
+
+/* Image Sections */
+.hero-image {
+	max-width: 200px;
+	height: auto;
+	display: block;
+	margin: 1.5rem auto;
 }
