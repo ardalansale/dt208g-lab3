@@ -70,6 +70,24 @@ body {
 	padding: 20px;
 }
 
+p {
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
 /* Header & Navigering */
 header {
 	margin-bottom: 20px;
@@ -89,8 +107,7 @@ nav a {
 
 nav a.active {
 	font-weight: bold;
-	text-decoration: underline;
-	color: #3752ff;
+	/* text-decoration: underline; */
 }
 
 /* Huvudinnehåll */
@@ -127,7 +144,7 @@ button {
 footer {
 	text-align: center;
 	padding: 8px;
-	background: #3752ff;
+	background: #65abff;
 	color: #fff;
 	margin-top: 40px;
 	border-radius: 8px;
@@ -142,4 +159,20 @@ footer {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* Componenter */
+.info-box {
+	background-color: #202020;
+	border-left: 4px solid #0066cc;
+	padding: 1rem;
+	margin-top: 1.5rem;
+	border-radius: 4px;
+	color: white;
+}
+
+.info-box h4 {
+	font-weight: 700;
+	margin-top: 0;
+	color: #0066cc;
 }
