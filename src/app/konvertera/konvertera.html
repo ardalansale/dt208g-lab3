@@ -1,1 +1,21 @@
-<p>konvertera works!</p>
+<h2>Konvertering</h2>
+
+<section>
+	<h3>Meter till Feet</h3>
+	<div class="form-group">
+		<label for="meters">Ange meter:</label>
+		<input type="number" id="meters" (input)="convertMeterToFeet($event)">
+	</div>
+	<p>Resultat: {{ feet }} feet</p>
+</section>
+
+<hr>
+
+<section>
+	<h3>Celsius till Fahrenheit</h3>
+	<div class="form-group">
+		<label for="celsius">Ange Celsius:</label>
+		<input type="number" id="celsius" (input)="convertCelsiusToFahrenheit($event)">
+	</div>
+	<p>Resultat: {{ fahrenheit }} °F</p>
+</section>

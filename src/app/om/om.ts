@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-om',
-  imports: [],
-  templateUrl: './om.html',
-  styleUrl: './om.css',
+	selector: 'app-om',
+	standalone: true,
+	imports: [],
+	templateUrl: './om.html',
+	styleUrl: './om.css'
 })
-export class Om {
+export class OmComponent {
 
 }
