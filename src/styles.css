@@ -1,5 +1,5 @@
 /* ==========================================
-   1. RESET
+    1. RESET
    ========================================== */
 *, *::before, *::after {
 	box-sizing: border-box;
@@ -55,7 +55,7 @@ p, li {
 }
 
 /* ==========================================
-   2. ARDALANS CSS-BAS & LAYOUT
+    2. ARDALANS CSS-BAS & LAYOUT
    ========================================== */
 html {
 	scroll-behavior: smooth;
